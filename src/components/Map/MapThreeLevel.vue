@@ -13,7 +13,7 @@ export default {
         init() {
             let map = new chinaMapThreeLevel({
                 // map的静态内容保存位置
-                mapBase:process.env.NODE_ENV === 'production' ?'https://hangzhou-zhiwang.github.io/jj-vue-echarts/dist/map':'/map',
+                mapBase:process.env.NODE_ENV === 'production' ?'https://sunny-world.github.io/jj-vue-echarts/dist/map':'/map',
                 keyName:'终端数量',
                 dom: this.$refs.map,
                 getProvinceList: async () => {
